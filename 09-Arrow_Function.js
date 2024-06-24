@@ -15,3 +15,16 @@ console.log(addnum(3,5));
 
 const userName  = (num1 , num2) =>  ({username : "jahangir"})
 console.log(userName());
+
+
+
+//    () ()                        //global scope ke polution se bacne kelie IIFE ka use kia
+    
+   (function chai(){                   //ye bhi execute hoga 
+    console.log(`DB CONNETION`);
+   }) ();
+
+   ( () => {
+    console.log(`DB CONNECTION`);
+
+   } ) ()  // or ye bhi same upper wala
