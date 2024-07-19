@@ -1,4 +1,4 @@
-const coding =["javascript", "phython", "c++","java"]          //my practice
+const coding = ["javascript", "phython", "c++","java"]          //my practice
 
 for (const object of coding) {
    console.log(object,);
